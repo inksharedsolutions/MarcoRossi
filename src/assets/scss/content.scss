@@ -32,6 +32,14 @@
     }
 }
 
+
+.wn-author-name{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    font-size: 1.3em;
+}
+
 .upper-main{
     text-align: center;
     background: #F8F8F8;
@@ -48,6 +56,7 @@
         font-size: 2.5em;
         text-transform: uppercase;
         font-weight: 900;
+        color: #000;
     }
 
     .middle-params{
@@ -110,6 +119,7 @@
         font-size: 2.5em;
         text-transform: uppercase;
         font-weight: 900;
+        color: #000;
     }
 
     .middle-params{
@@ -166,7 +176,7 @@
 }
 
 .newsletter-section{
-    background: #dcdcdc;    
+    background: #eeeeee;
     text-align: center;
     padding: 4% 0;
     h1{
@@ -184,7 +194,7 @@
         }
     }
     input[name="submit"]{
-        background: #fdcb02;
+        background: #ffe5b5;
         border: none;
         color: #ffff;
         cursor: pointer;
@@ -193,6 +203,7 @@
     }
     button{
         margin: 0;
+        font-size:17px !important;
     }
 }
 
@@ -290,6 +301,114 @@
 
 }
 
+.testimonial-section{
+
+    height: 438px;
+
+    h1{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        font-size: 4em;
+        font-weight: bold;
+        color: #000;
+        position: relative;
+        z-index: 10;
+
+        &:before{
+            content: '';
+            background: #f9bd4f;
+            position: absolute;
+            width: 368px;
+            height: 220px;
+            left: 33%;
+            z-index: -1;
+        }
+    }
+    
+}
+
+.testimonial-section{
+
+    /* The image used */
+    background-image: url("../../../static/banner/lower-image.png");
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &:before{
+        content: "";
+        background: #fff7e8d6;
+        width: 100%;
+        height: 250px;
+        display: block;
+        position: absolute;
+        -moz-transform: translateY(189px);
+        -webkit-transform: translateY(189px);
+        transform: translateY(189px);
+    }
+}
+
+.testimonial-blocks{
+    
+    max-width: 1278px;
+    margin: 5em auto;
+
+    .grid-block-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3em;
+
+        .testimonial-block-element{
+            padding: 5em 2em;
+            background: #fff7e8;
+            p{
+                font-size: 15px;
+            }
+            
+            h2{
+                font-size: 2em;
+                font-weight: bold;
+                color: #000;
+            }
+
+            .testimonial-author{
+                font-size: 15px;
+                border-bottom: 1px solid #ffc869;
+                color: #dc910e !important;
+            }
+
+            .testimonial-num{
+                padding: 25px;
+                background: #f9bd4f;
+                position: absolute;
+                transform: translate(-65px, -108px);
+                font-size: 1.7em;
+                font-weight: bold;
+                color: #000 !important;
+                box-shadow: -3px 1px 33px 6px #a9a9a930;
+            }
+
+
+            &:nth-child(2){
+                margin-top: 38px;
+            }
+
+            &:nth-child(3){
+                margin-top: 80px;
+            }
+        }
+
+    }
+}
+
 .book-contents{
     padding: 0 20%;
     display: flex;
@@ -300,11 +419,12 @@
         font-size: 5em;
         font-weight: 900;
         color: #000;
+        text-transform: uppercase;
     }
 
     span{
         letter-spacing: 5px;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     button{
@@ -322,35 +442,4 @@
             background: #eac071;
          }
     }
-}
-
-.testimonial-section{
-
-    height: 45vh;
-    background: #f8f8f8;
-
-
-    h1{
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        font-size: 4em;
-        font-weight: bold;
-        color: #000;
-        position: relative;
-        z-index: 10;
-
-        &:before{
-            content: '';
-            background: #FFEFD2;
-            position: absolute;
-            width: 368px;
-            height: 220px;
-            left: 33%;
-            z-index: -1;
-        }
-    }
-    
 }

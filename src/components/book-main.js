@@ -13,10 +13,10 @@ const MainBook = ()=>{
                         <span>The Paths of Plenitude</span>
 
                         <p>
-                            Marcos H. N. Rossi is an executive, life-coach,
-                            inspirational writer and teaches Supply Chain
-                            Management. He is also the author of
-                            the motivational book "Flowers on the Balcony".
+                            War looms in the horizon in England, and Frank,
+                            a troubled young man, feels lost and unprepared, 
+                            until an unconventional mentor steps in and begins 
+                            to prepare him for the difficult life of a soldier.
                         </p>
 
                         <button className="button-wraps">

@@ -8,7 +8,7 @@ const MidMain = ()=>{
     return(
         <>
             <section className="mid-main">
-                <div className="container-gt separator-line">
+                <div className="container-gt">
                     <h1>Featured</h1>
                     <p className="middle-params">
                         William Hoy has been featured numerous times on...

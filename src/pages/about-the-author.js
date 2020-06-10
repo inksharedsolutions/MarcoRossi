@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Banner from '../components/non-front-banner'
-import AuthorImg from '../../static/img/author_img.png'
+import AuthorImg from '../../static/author/author_img.jpg'
 
 const ATB = (props)=>{
 	
@@ -13,7 +13,6 @@ const ATB = (props)=>{
                  <Banner 
                  spanFirst={`About The`}
                  contextHeading={`Author`}/>
-
 
 
 		 		<div className="container">
@@ -29,37 +28,33 @@ const ATB = (props)=>{
                                    Just like always, the only way out is through
                                 </h4>
                                 
-                                <span className="ata-span-fx">author quote</span>
+                                <span className="ata-span-fx">
+                                    author quote
+                                </span>
                             </div>
                         </div>
 
+                        <article 
+                            className="article-section column" 
+                            id="author">
 
-                        <article className="article-section column" id="author">
                             <p>
-                                I, William D. Hoy was born in San Diego, California and raised in Chula Vista a 
-                                suburb of San Diego, living on a farm until I entered high school.
-                                Graduated from Chula Vista Senior High School, years later I got
-                                my Bachelor’s Degree from Columbia College. I retired from the United
-                                States Army as a Chief Warrant Officer Four with 26 years of active duty.
+                                Marcos H. N. Rossi is an executive, life-coach, inspirational 
+                                writer and teaches Supply Chain Management. He is also the
+                                author of the motivational book "Flowers on the Balcony".
                             </p>
 
                             <p>
-                                I made my entry into the movie business as an actor while living
-                                in San Francisco, appearing in some famous movies such as, In pursuit 
-                                of Happiness; Money Ball; Milk; Four Christmases; and some not so famous 
-                                ones such as; Mail Order Bride; Her Best Move; Ellen Bond Secret Agent;
-                                Subprime Children; Control Tower; Violent Jake; and a half a dozen non-fiction 
-                                shorts with, The World Astonishing News a Duo-Communications Production. 
-                                I'm part of the cast for the up-coming movie Octoroon still in Pre Post Production.
+                                Marcos lives in Miami, Florida, with his wife Vania and 
+                                two sons, Gianlucca and Gianpietro.
                             </p>
 
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    William Hoy
+                                    Marcos H. N. Rossi
                                 </span>
                             </p>
-
                         </article>
               
 

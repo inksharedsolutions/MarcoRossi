@@ -13,17 +13,54 @@
            
             color: #000 !important;
             display: block;
+
+            &:nth-child(2){
+                position: relative;
+                z-index: 10;
+            }
         }
     }
+
+    button{
+
+        width: 202px;
+        padding: 20px;
+        margin-top: 3em;
+
+        &:before{
+            content: '';
+            width: 1px;
+            height: 27px;
+            position: absolute;
+            display: block;
+            transform: translate(52px, -46px);
+            background: #eac071;
+        }
+    }
+
 }
 
 .banner-section{
+
     background: #FFF7E8;
     height: 90vh;
+
     h1{
-        font-size: 2.0em;
-        font-weight: bold;
+        font-size: 3.48rem;
+        font-weight: 900;
         line-height: 1;
+        text-transform: uppercase;
+
+        &:after{
+            content: '';
+            width: 301px;
+            height: 62px;
+            position: absolute;
+            display: block;
+            transform: translate(3px, -39px);
+            background: #eac071;
+            z-index: 1;
+        }
     }
 }
 
@@ -90,7 +127,7 @@
             text-transform: uppercase;
             font-size: 9em;
             font-weight: bold;
-            color: #00000017;
+            color: #966a312e;
             transform: translateX(-152px);
         }
 
@@ -101,7 +138,7 @@
             text-transform: uppercase;
             font-size: 9em;
             font-weight: bold;
-            color: #00000017;
+            color: #966a312e;
             transform: translateX(-87px);
         }
     }

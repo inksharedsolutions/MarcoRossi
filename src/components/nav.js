@@ -14,10 +14,15 @@ const Nav = (props) =>{
 		 'Contact'
 	]	
 
+
+	console.log(pages);
+
 	let Listed = pages.map((e) =>{
  		
 		var newUrl = ((e).replace(/[ /]/g,"-").trim().toLowerCase());
-		let filterUrl = (newUrl === 'home') ? '/' : newUrl;
+		let filterUrl = (newUrl === 'home') ? '/' : `/${newUrl}`;
+
+		console.log(filterUrl);
 
 		return (
 			<li>
@@ -28,6 +33,7 @@ const Nav = (props) =>{
 			</li>
 		)
 	})
+
 
 	const clickEvent = (e)=> {
 		setToggled(!toggled);
@@ -52,13 +58,13 @@ const Nav = (props) =>{
 						}:{
 							color: '#000'
 						}}
-						to="/"
-					>
+						to="/">
+							
 						<img className="logo-img" src={Logo}/>
 					</Link>
 				</h1>
 
-				<h1></h1>
+				<h1 className="wn-author-name">Marco Rossi</h1>
 
 				<ul
 					className="hamburger-ul"

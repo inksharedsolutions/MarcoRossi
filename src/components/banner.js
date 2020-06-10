@@ -14,7 +14,7 @@ const Banner = ()=>{
                             <div className="left-col">
                                 <div className="banner-content-wrapper">
                                     <h1>
-                                        <span><span className="f-letters">T</span>he Paths of</span> 
+                                        <span>The Paths of</span> 
                                         <span>Plenitude</span>
                                     </h1>
                                     <p>
@@ -23,6 +23,12 @@ const Banner = ()=>{
                                         new beginning. What he finds there changes him
                                         forever.
                                     </p>
+
+                                    <button>
+                                        <Link to="">
+                                            Read More
+                                        </Link>
+                                    </button>
                                
                                 </div>
                             </div>

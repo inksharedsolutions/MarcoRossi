@@ -9,9 +9,9 @@ const Footer = ()=>{
         <>  
             <footer className="footer-section">
                 <div className="container-gt" id="footer-info">
-                    <h1>WH.</h1>
+                    <h1>MR.</h1>
                     <p>
-                        William Hoy loves to hear from readers. You can reach him via email. 
+                        Marcos Rossi loves to hear from readers. You can reach him via email. 
                         Feel free to send questions about writing, his works, interviews 
                         and other publicity matters.
                     </p> 
@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/William-D-Hoy-330094504273633"
+                                <a href="https://www.facebook.com/SPPI.Official"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
