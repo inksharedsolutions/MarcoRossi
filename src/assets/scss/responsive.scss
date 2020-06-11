@@ -151,7 +151,7 @@
     
     .img-wrapper-form{
         img{
-            width: 31%;
+            width: 90%;
             margin: 3em 0;
         }
     }
@@ -165,6 +165,11 @@
 }   
 
 @media screen and (max-width: 650px){
+
+
+    .banner-content-wrapper{
+        height: 100vh !important;
+    }
 
     .book-img-wrapper{
         height: 55vh;
@@ -181,7 +186,7 @@
     }
 
     .banner-section{
-        height: 90vh !important;
+        height: 100vh !important;
     }
 
     .web-banner{
@@ -357,9 +362,19 @@
         }
     }
 
+    .testimonial-num{
+        transform: translate(-35px, -101px) !important;
+    }
+
     .testimonial-section{
         h1{
             font-size: 3em;
+        }
+    }
+
+    .book-img-wrapper{
+        img{
+            width: 84% !important;
         }
     }
 }
