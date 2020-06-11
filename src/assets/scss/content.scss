@@ -46,7 +46,7 @@
 
     &:before{
         content: '';
-        width: 623px;
+        width: 36%;
         height: 400px;
         background: #fff7e8;
         position: absolute;
@@ -105,10 +105,10 @@
     &:before{
         content: '';
         background: #ffdc9b;
-        height: 429px;
-        width: 312px;
+        height: 428px;
+        width: 365px;
         position: absolute;
-        transform: translate(-30px, 69px);
+        transform: translate(-25px, 69px);
     }
 }
 
@@ -296,7 +296,7 @@
 
     img{
         width: 77%;
-        transform: translateX(-202px);
+        transform: translateX(-131px);
     }
 
 }
@@ -416,7 +416,7 @@
     justify-content: center;
 
     h1{
-        font-size: 5em;
+        font-size: 5rem;
         font-weight: 900;
         color: #000;
         text-transform: uppercase;
@@ -429,8 +429,9 @@
 
     button{
 
-        width: 23%;
+        width: 242px;
         margin-top: 4rem;
+        padding: 20px;
 
          &:before{
             content: '';
