@@ -1,31 +1,45 @@
-import React from 'react'
+import React,{useEffect, useRef} from 'react'
 import {Link} from 'gatsby'
-import  ImgBanner from '../../static/banner/banner_img.png'
+import  ImgBanner from '../../static/banner/banner_img_02.png'
 
 const Banner = ()=>{
+
+    const elemBanner = useRef(null);
+
+    useEffect(() => {
+
+    });
+ 
+
     return (
         <>
             <section className="banner-section">
-
-
 
                     <div className="grid-two-layout-col">
                         <div className="wrapper-bg-left">
                             <div className="left-col">
                                 <div className="banner-content-wrapper">
                                     <h1>
-                                        <span>The Paths of</span> 
-                                        <span>Plenitude</span>
+                                        <span className="first-block">
+                                            <span>
+                                                The Paths of
+                                            </span>
+                                        </span>
+
+                                        <span className="second-block">
+                                            <span>
+                                             Plenitude
+                                            </span>
+                                        </span>
                                     </h1>
                                     <p>
-                                        World War II surprises Frank in drastic ways, 
-                                        forcing him to return to his origins in search of a
-                                        new beginning. What he finds there changes him
-                                        forever.
+                                        “Bread & Joy,” explores the hardship, failures and triumphs of 
+                                        an extraordinary young man who embarks on a journey
+                                        of self-development and spiritual discovery. 
                                     </p>
 
                                     <button>
-                                        <Link to="">
+                                        <Link to="/about-the-book">
                                             Read More
                                         </Link>
                                     </button>
@@ -37,7 +51,7 @@ const Banner = ()=>{
                         <div className="wrapper-bg-right">
                             <div className="right-col banner-img-col">
 
-                                <div className="img-banner-wrapper">
+                                <div className="img-banner-wrapper" ref={elemBanner}>
                                     <img src={ImgBanner}/>
                                 </div>
 

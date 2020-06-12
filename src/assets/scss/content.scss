@@ -40,18 +40,22 @@
     font-size: 1.3em;
 }
 
+
+.upper-style{
+    &:before{
+        content: '';
+        background: #fff7e8;
+        position: absolute;
+        left: 0;
+        animation: anim_to_right;
+        animation-duration: 2s;
+    }
+}
+
 .upper-main{
     text-align: center;
     background: #F8F8F8;
 
-    &:before{
-        content: '';
-        width: 36%;
-        height: 400px;
-        background: #fff7e8;
-        position: absolute;
-        left: 0;
-    }
     h1{
         font-size: 2.5em;
         text-transform: uppercase;
@@ -102,6 +106,9 @@
      position: relative;
      z-index: 10;
     }
+}
+
+.image-author{
     &:before{
         content: '';
         background: #ffdc9b;
@@ -109,6 +116,8 @@
         width: 365px;
         position: absolute;
         transform: translate(-25px, 69px);
+        animation-name: anim_img;
+        animation-duration: 2s;
     }
 }
 
@@ -213,10 +222,16 @@
     #footer-info{
         text-align: center;
         h1{
-            font-size: 3em;
-            color: #ffff;
+            font-size: 1em;
+            color: #f7dfb4;
             font-weight: 800;
-            letter-spacing: 6px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            border-top: 1px solid #424040;
+            border-bottom: 1px solid #424040;
+            max-width: 341px;
+            margin: 0 auto;
+            padding: 15px 0;
         }
     }
 
@@ -442,5 +457,29 @@
             transform: translate(53px, -50px);
             background: #eac071;
          }
+    }
+}
+
+
+
+/*Animation*/
+@keyframes anim_img{
+    0% {
+       height: 0;
+       
+    }
+    100%{
+        height: 428px;
+    }
+}
+
+@keyframes anim_to_right{
+    0% {
+       width: 0px;
+       height: 400px;
+    }
+    100%{
+        width: 32%;
+        height: 400px;
     }
 }

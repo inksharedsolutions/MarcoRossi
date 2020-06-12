@@ -1,15 +1,33 @@
-import React from 'react'
+import React,{useEffect, useRef, useState} from 'react'
 import {Link} from 'gatsby'
 import AuthorImg from '../../static/author/author_img.jpg'
 
 const UpperMain =()=>{
+
+
+    const elemBanner = useRef(null);
+    const [stateUpper, statFunc] = useState(false);
+    
+    useEffect(() => {
+        window.addEventListener('scroll', scrollEffect);
+    });
+
+    const scrollEffect = (e)=>{
+        let axisY =window.scrollY;
+
+        if(axisY > 500 ){
+            statFunc(true);
+        }
+    }   
+    
+    
     return  (
         <>
-            <section className="upper-main">
+            <section className={`upper-main upper-style`}>
                 <div className="container-gt">
 
                     <div className="grid-two-columns" >
-                        <div className="img-wrapper-form">
+                        <div className={`img-wrapper-form ${stateUpper && 'image-author'}`}>
                             <img src={AuthorImg} alt="author-image"/>
                         </div>
 

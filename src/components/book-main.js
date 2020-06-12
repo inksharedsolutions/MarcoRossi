@@ -3,6 +3,7 @@ import Book from '../../static/book/two_perspective_book.png'
 import { Link } from 'gatsby'
 
 const MainBook = ()=>{
+
     return(
         <>
             <section className="section-main-book">
