@@ -205,10 +205,11 @@
     input[name="submit"]{
         background: #ffe5b5;
         border: none;
-        color: #ffff;
+        color: #f9bd4f;
         cursor: pointer;
         text-transform: uppercase;
         letter-spacing: 3px;
+        font-weight: 900;
     }
     button{
         margin: 0;
@@ -454,7 +455,7 @@
             height: 41px;
             position: absolute;
             display: block;
-            transform: translate(53px, -50px);
+            transform: translate(95px, -60px);
             background: #eac071;
          }
     }

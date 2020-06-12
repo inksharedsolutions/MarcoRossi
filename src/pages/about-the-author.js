@@ -25,7 +25,7 @@ const ATB = (props)=>{
 
                             <div className="heading-quote">
                                 <h4>
-                                   Just like always, the only way out is through
+                                    Frank, beware, for in reality we never know if the bottom we’ve hit is really the bottom. You might still have a lot in front of you until you really hit the rock bottom, so you will need to be much stronger than you think.
                                 </h4>
                                 
                                 <span className="ata-span-fx">

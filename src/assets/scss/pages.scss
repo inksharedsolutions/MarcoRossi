@@ -13,11 +13,12 @@ $prm-font-size : 12px;
 
 .web-banner{
     height: 400px;
+    background: url("../../../static/banner/banner_non_front.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: #f7f4e9;
+
 
     span{
         letter-spacing: 0.67em;
@@ -31,7 +32,7 @@ $prm-font-size : 12px;
         font-size: 4em;
         font-weight: 900;
         text-transform: uppercase;
-        color: #a78d32;
+        color: #000000;
         margin-bottom: 0.6em;
     }
 }
