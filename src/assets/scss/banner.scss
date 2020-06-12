@@ -107,7 +107,7 @@
     &:before{
         content: "";
         background: url("../../../static/banner/circle_svg.svg");
-        width: 468px;
+        width: 25vw;
         height: 500px;
         position: absolute;
         background-repeat: no-repeat;
@@ -128,7 +128,7 @@
             position: absolute;
             top: 5%;
             text-transform: uppercase;
-            font-size: 9em;
+            font-size: 8vw;
             font-weight: 900;
             color: #ffffff;
             transform: translateX(66px);
@@ -137,12 +137,12 @@
         &:after{
             content: "Joy";
             position: absolute;
-            top: 45%;
+            top: 28%;
             text-transform: uppercase;
-            font-size: 9em;
+            font-size: 8vw;
             font-weight: 900;
             color: #ffffff;
-            transform: translateX(-541px);
+            transform: translateX(-173%);
         }
     }
 }
