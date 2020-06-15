@@ -13,7 +13,7 @@ const Newsletter = ()=>{
             <section className="newsletter-section">
                 <div className="container-gt">
                     <h1>Newsletter</h1>
-                    <p>Stay up to date with latest from me</p>
+                    <p>Stay up to date with the latest from me</p>
                     
                     <form 
                         onSubmit={(e)=>onSubmitForm(e)}

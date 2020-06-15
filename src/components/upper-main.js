@@ -37,10 +37,11 @@ const UpperMain =()=>{
                                 <span>Author & Writer</span>
 
                                 <p>
-                                    Marcos H. N. Rossi is an executive, life-coach,
-                                    inspirational writer and teaches Supply Chain
-                                    Management. He is also the author of
-                                    the motivational book "Flowers on the Balcony".
+                                    Italian descendant and Brazilian born, living in the US since 
+                                    2004 after being “imported” by a global corporation, Marcos 
+                                    is what one may call a citizen of the world, having visited 
+                                    either on work or pleasure more than forty countries in five 
+                                    continents.
                                 </p>
 
                                 <button>
