@@ -18,7 +18,14 @@
             font-size: 2.3rem;
         }
     }
+
+    body{
+        p{
+            font-size: 1em;
+        }
+    }
 }
+
 
 @media screen and ( min-width : 1250px){
     .img-wrapper-form{
@@ -31,18 +38,23 @@
     }
 }
 
-@media screen and ( min-width : 1200px){
-    body{
-        font-size: 18px;
-    }
-}
+// @media screen and ( min-width : 1200px){
+//     body{
+//         font-size: 18px;
+//     }
+// }
 
 
 @media screen and ( max-width : 990px){
+ 
 
     #privacy-policy-content, 
     #terms-and-conditions-content{
         margin: 4em 1em !important;
+    }
+
+    .body-author-contents{
+        display: block;
     }
 
     .close-mark{

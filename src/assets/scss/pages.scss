@@ -55,6 +55,8 @@ $prm-font-size : 12px;
     margin: 4em 0 !important;
     // background: #eee;
     padding: 44px;
+    display: grid;
+    grid-template-columns: 44% 1fr;
 }
 
 .heading-quote{

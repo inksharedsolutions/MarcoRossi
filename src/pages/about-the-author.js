@@ -16,9 +16,9 @@ const ATB = (props)=>{
 
 
 		 		<div className="container">
-				    <section className="body-author-contents columns">
+				    <section className="body-author-contents">
 
-                        <div className="heading-quote column">
+                        <div className="heading-quote">
                             <div className="author-image-container">
                                 <img src={AuthorImg} />
                             </div>
@@ -35,7 +35,7 @@ const ATB = (props)=>{
                         </div>
 
                         <article 
-                            className="article-section column" 
+                            className="article-section" 
                             id="author">
 
                             <p>
