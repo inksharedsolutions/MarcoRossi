@@ -59,12 +59,15 @@ const ATB = (props)=>{
                                 to visit archaeological sites, Buddhist and Hindu temples, 
                                 Mosques, Synagogues and Christian churches. He also loves 
                                 history and uses most of his free time reading about it 
-                                and watching related documentaries.Marcos is married to Vania 
-                                Rossi and they are the proud parents of Gianlucca and Gianpietro.
+                                and watching related documentaries. 
+                            </p>
+
+                            <p>
+                                Marcos is married to Vania Rossi and they are the proud parents of Gianlucca and Gianpietro.
                                 He is the author of two books; Flowers on the Balcony 
                                 (a compilation of 20 essays on different aspects of life transformation) and Bread & Joy,
                                 a historic/spiritualistic romance, that leads the reader through an inspiring life journey,
-                                where the unexpected always plays a surprising determinant role. 
+                                where the unexpected always plays a surprising determinant role.
                             </p>
 
                             <p>
@@ -73,6 +76,7 @@ const ATB = (props)=>{
                                     Marcos H. N. Rossi
                                 </span>
                             </p>
+                            
                         </article>
               
 
