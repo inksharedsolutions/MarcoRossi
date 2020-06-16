@@ -11,7 +11,7 @@ const Footer = ()=>{
                 <div className="container-gt" id="footer-info">
                     <h1>Marcos Rossi</h1>
                     <p>
-                        Marcos Rossi loves to hear from readers. You can reach him via email. 
+                        Marcos H. N. Rossi loves to hear from readers. You can reach him via email. 
                         Feel free to send questions about writing, his works, interviews 
                         and other publicity matters.
                     </p> 
@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/StrattonPressInc"
+                                <a href="https://www.facebook.com/Marcos-H-N-Rossi-112557620322370/?ref=bookmarks"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
