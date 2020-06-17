@@ -25,8 +25,13 @@ const BookInfo = (props)=>{
                     <section className="fullSection">
                         <nav className="booklinkBlocks">
                             <span>Ebooks :</span>
-                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
+
+                            { props.data.ebooks.stratton.length > 0 && (
+                                <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
+                            )}
+                            <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.amazon}>Amazon</a></li>
                             <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
+
                         </nav>
 
                         <nav className="booklinkBlocks">
