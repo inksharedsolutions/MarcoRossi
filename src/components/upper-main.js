@@ -37,11 +37,11 @@ const UpperMain =()=>{
                                 <span>Author & Writer</span>
 
                                 <p>
-                                    Italian descendant and Brazilian born, living in the US since 
-                                    2004 after being “imported” by a global corporation, Marcos 
-                                    is what one may call a citizen of the world, having visited 
-                                    either on work or pleasure more than forty countries in five 
-                                    continents.
+                                    Italian descendant and Brazilian born living in the US since 2004,
+                                    Marcos is a citizen of the world. His deep interests in human nature 
+                                    lead him to get certified as coach. Spiritualistic, Marcos has studied
+                                    almost all religions. He also loves history, using his free time reading 
+                                    and watching documentaries.
                                 </p>
 
                                 <button>

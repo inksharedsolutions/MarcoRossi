@@ -25,7 +25,15 @@ const ATB = (props)=>{
 
                             <div className="heading-quote">
                                 <h4>
-                                    Frank, beware, for in reality we never know if the bottom we’ve hit is really the bottom. You might still have a lot in front of you until you really hit the rock bottom, so you will need to be much stronger than you think.
+                                    They heard a scream coming from inside the house
+                                    and recognized Charlotte’s voice. They ran inside 
+                                    to find her in the arms of her husband, in tears. 
+                                    When both asked what had happened, Frederick told 
+                                    them what they had just heard on the radio. England 
+                                    had just declared war against Germany, and Peter would 
+                                    certainly be drafted to fight. In a matter of months, 
+                                    it would be Frank’s turn to go. The world was changing 
+                                    and changing drastically.
                                 </h4>
                                 
                                 <span className="ata-span-fx">
