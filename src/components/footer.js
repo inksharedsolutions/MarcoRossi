@@ -19,7 +19,7 @@ const Footer = ()=>{
                     <nav>
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/Marcos-H-N-Rossi-112557620322370/?ref=bookmarks"
+                                <a href="https://www.facebook.com/marcoshnrossi/"
                                    target="_blank">
                                     <FontAwesomeIcon
                                         className='font-awesome'
