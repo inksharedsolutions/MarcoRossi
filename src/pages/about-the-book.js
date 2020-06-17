@@ -42,13 +42,12 @@ const ATB = (props)=>{
                                     imgSrc: Book1,
                                     id:'the_gifted_one',
                                     content:
-                                    `War looms in the horizon in England, and Frank,
-                                     a troubled young man, feels lost and unprepared, 
-                                     until an unconventional mentor steps in and begins
-                                     to prepare him for the difficult life of a soldier. 
-                                     However, World War II surprises Frank in drastic ways,
-                                     forcing him to return to his origins in search of a new beginning.
-                                     What he finds there changes him forever.`,
+                                    `War looms in the horizon in England, and Frank, a troubled
+                                    young man, feels lost and unprepared, until an unconventional
+                                    mentor steps in and braces him for the difcult life of a soldier.
+                                    However, World War II surprises Frank in drastic ways, forcing
+                                    him to return to his origins in search of a new beginning. What
+                                    he fnds there, changes him forever.`,
                                     
                                     ebooks:{
                                         stratton : 'https://www.stratton-press.com/books/bread-joy-the-paths-of-plenitude/',
