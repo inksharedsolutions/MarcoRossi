@@ -21,7 +21,7 @@ const ATB = (props)=>{
                         <div className="heading-quote">
                             <div className="author-image-container">
                                 <img src={AuthorImg} />
-                            </div>
+                            </div> 
 
                             <div className="heading-quote">
                                 <h4>
