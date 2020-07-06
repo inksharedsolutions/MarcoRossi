@@ -329,19 +329,28 @@
         height: 100%;
         font-size: 4em;
         font-weight: bold;
-        color: #000;
+        color: #000; 
         position: relative;
         z-index: 10;
 
-        &:before{
-            content: '';
+        span{
+            margin: 0 auto;
+            max-width: 633px;
             background: #f9bd4f;
-            position: absolute;
-            width: 368px;
-            height: 220px;
-            left: 33%;
-            z-index: -1;
+            padding: 3%;
+            color: #ffffff !important;
         }
+
+        // &:before{
+        //     content: '';
+        //     background: #f9bd4f;
+        //     width: 476px;
+        //     height: 220px;
+        //     left: 33%;
+        //     z-index: -1;
+        //     margin: 0 auto;
+        //     max-width: 500px;
+        // }
     }
     
 }
@@ -393,6 +402,7 @@
                 font-size: 2em;
                 font-weight: bold;
                 color: #000;
+                font-family: 'Crimson Text', serif;
             }
 
             .testimonial-author{

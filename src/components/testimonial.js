@@ -7,7 +7,9 @@ const Testimonial = ()=>{
         <>
             <section className="testimonial-section">
                 <h1>
-                    Testimonial
+                    <span>
+                        Testimonials
+                    </span>
                 </h1>
             </section>
 
