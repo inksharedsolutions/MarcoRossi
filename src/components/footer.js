@@ -30,7 +30,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://twitter.com/strattonpress/">
+                                    href="https://twitter.com/MarcosHNRossi1?fbclid=IwAR1XJUJXXZ0vyBoZztxFP9T0kVO5crUqpMIclXfLXkmUXyBdKxishTO24ks">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faTwitter} />
@@ -40,7 +40,7 @@ const Footer = ()=>{
                             <li>
                                 <a  
                                     target="_blank"
-                                    href="https://www.instagram.com/strattonpress/">
+                                    href="https://www.instagram.com/mhnrossi/">
                                     <FontAwesomeIcon
                                         className='font-awesome'
                                         icon={faInstagram} />
