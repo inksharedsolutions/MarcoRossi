@@ -27,7 +27,7 @@ const Banner = ()=>{
                                         </span>
 
                                         <span className="second-block">
-                                            <span>
+                                            <span id="color-o">
                                              Plenitude
                                             </span>
                                         </span>

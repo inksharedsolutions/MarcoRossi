@@ -52,17 +52,17 @@
         text-transform: uppercase;
 
         &:after{
-            content: '';
-            width: 375px;
-            height: 62px;
-            position: absolute;
-            display: block;
-            transform: translate(3px, -39px);
-            background: #eac071;
-            z-index: 1;
-            animation-name: after_line;
-            animation-duration:2s;
-            transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+            // content: '';
+            // width: 375px;
+            // height: 62px;
+            // position: absolute;
+            // display: block;
+            // transform: translate(3px, -39px);
+            // // background: #eac071;
+            // z-index: 1;
+            // animation-name: after_line;
+            // animation-duration:2s;
+            // transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
         }
     }
 }
@@ -171,6 +171,10 @@
         animation-name: animate_text_up;
         animation-duration:4s;
     }
+}
+
+#color-o{
+    color: #e0904c !important;
 }
 
 
