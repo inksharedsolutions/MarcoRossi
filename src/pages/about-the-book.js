@@ -47,7 +47,7 @@ const ATB = (props)=>{
                                     mentor steps in and braces him for the difcult life of a soldier.
                                     However, World War II surprises Frank in drastic ways, forcing
                                     him to return to his origins in search of a new beginning. What
-                                    he fnds there, changes him forever.`,
+                                    he finds there, changes him forever.`,
                                     
                                     ebooks:{
                                         stratton : 'https://www.stratton-press.com/books/bread-joy-the-paths-of-plenitude/',
