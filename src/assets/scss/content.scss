@@ -226,7 +226,7 @@
             font-size: 1em;
             color: #f7dfb4;
             font-weight: 800;
-            letter-spacing: 10px;
+            letter-spacing: 2px;
             text-transform: uppercase;
             border-top: 1px solid #424040;
             border-bottom: 1px solid #424040;
@@ -469,6 +469,11 @@
             background: #eac071;
          }
     }
+}
+
+.param-footer{
+    max-width: 500px;
+    margin: 4% auto !important;
 }
 
 

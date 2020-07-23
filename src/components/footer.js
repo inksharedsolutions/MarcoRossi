@@ -10,7 +10,7 @@ const Footer = ()=>{
             <footer className="footer-section">
                 <div className="container-gt" id="footer-info">
                     <h1>Marcos H. N. Rossi</h1>
-                    <p>
+                    <p className="param-footer">
                         Marcos H. N. Rossi loves to hear from readers. You can reach him via email. 
                         Feel free to send questions about writing, his works, interviews 
                         and other publicity matters.
