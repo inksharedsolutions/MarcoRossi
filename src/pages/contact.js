@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Layout from '../components/layout'
 import Inputs from "../components/Inputs/inputs"
 import Nav from '../components/nav'
@@ -6,6 +6,9 @@ import Banner from '../components/non-front-banner'
 
 
 const Contact = (props)=>{
+
+
+    const [state, actionState] = useState();
 
     
 	function OnSubmitForm (e) {
@@ -19,7 +22,7 @@ const Contact = (props)=>{
         xhr.onreadystatechange = () => {
             if (xhr.readyState !== XMLHttpRequest.DONE) return;
             if (xhr.status === 200) {
-                
+
                 form.reset();
                 actionState({state:true});
 
