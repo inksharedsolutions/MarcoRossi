@@ -19,7 +19,10 @@ const Contact = (props)=>{
         xhr.onreadystatechange = () => {
             if (xhr.readyState !== XMLHttpRequest.DONE) return;
             if (xhr.status === 200) {
+                
                 form.reset();
+                actionState({state:true});
+
             } else {
             	console.log('something went wrong')
             }
@@ -48,9 +51,25 @@ const Contact = (props)=>{
                                 How do you like my books? Leave a comment below, I’d love to hear from you!
                             </p>
 
+
+                            {
+                                state && (
+                                    <>
+                                        <section className="success-messages">
+                                            <p>
+                                                Succesfully Sent!
+                                            </p>
+                                        </section>
+                                    </>
+                                )
+                            }
+
+
+
+
                             <form 
                                 onSubmit={OnSubmitForm}
-                                action="https://formspree.io/xvopdpny"
+                                action="https://formcarry.com/s/1JC_ShOknKUu"
                                 method="POST">
 
                             <div className="columns" id="form-wrapper">
